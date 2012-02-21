@@ -1,7 +1,11 @@
 class Wheel
 
+  def initialize(puter=Kernel)
+    @puter = puter
+  end
+
   def turn
-    "sweeeerrrve!"
+    @puter.puts "sweeeerrrve!"
   end
 
 end
