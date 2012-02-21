@@ -1,7 +1,7 @@
 class Wheel
 
   def turn
-    puts "sweeeerrrve!"
+    "sweeeerrrve!"
   end
 
 end
